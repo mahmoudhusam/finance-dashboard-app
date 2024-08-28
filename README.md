@@ -70,12 +70,12 @@ The project is divided into two main folders:
 
 4. **Run the Application:**:
 
-1. ***Start the Backend Server:***
+- ***Start the Backend Server:***
    ```bash
    cd server
    npm start
 
-2. ***Start the Frontend Server:***
+- ***Start the Frontend Server:***
    ```bash
    cd ../client
    npm run dev

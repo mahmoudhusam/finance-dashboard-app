@@ -1,46 +1,48 @@
+// theme.ts
+
 export const tokens = {
   grey: {
-    100: "#f0f0f3",
-    200: "#e1e2e7",
-    300: "#d1d3da",
-    400: "#c2c5ce",
-    500: "#b3b6c2",
-    600: "#8f929b",
-    700: "#6b6d74",
-    800: "#48494e",
-    900: "#242427",
+    100: '#f2f4f7',
+    200: '#e4e8ee',
+    300: '#d7dde4',
+    400: '#c9d1db',
+    500: '#bcc6d2',
+    600: '#969ea8',
+    700: '#71777e',
+    800: '#4b4f54',
+    900: '#26282a',
   },
   primary: {
-    // light green
-    100: "#d0fcf4",
-    200: "#a0f9e9",
-    300: "#71f5de",
-    400: "#41f2d3",
-    500: "#12efc8",
-    600: "#0ebfa0",
-    700: "#0b8f78",
-    800: "#076050",
-    900: "#043028",
+    // Deep ocean blue to teal gradient
+    100: '#e6f7ff',
+    200: '#bae7ff',
+    300: '#91d5ff',
+    400: '#69c0ff',
+    500: '#40a9ff',
+    600: '#1890ff',
+    700: '#096dd9',
+    800: '#0050b3',
+    900: '#003a8c',
   },
   secondary: {
-    // yellow
-    100: "#fcf0dd",
-    200: "#fae1bb",
-    300: "#f7d299",
-    400: "#f5c377",
-    500: "#f2b455",
-    600: "#c29044",
-    700: "#916c33",
-    800: "#614822",
-    900: "#302411",
+    // Warm coral/salmon
+    100: '#fff2e8',
+    200: '#ffd8bf',
+    300: '#ffbb96',
+    400: '#ff9c6e',
+    500: '#ff7a45',
+    600: '#fa541c',
+    700: '#d4380d',
+    800: '#ad2102',
+    900: '#871400',
   },
   tertiary: {
-    // purple
-    500: "#8884d8",
+    // Soft lavender purple
+    500: '#9254de',
   },
   background: {
-    light: "#2d2d34",
-    main: "#1f2026",
+    light: '#1a1f2e',
+    main: '#141824',
   },
 };
 
@@ -69,36 +71,36 @@ export const themeSettings = {
     },
   },
   typography: {
-    fontFamily: ["Inter", "sans-serif"].join(","),
+    fontFamily: ['Inter', 'sans-serif'].join(','),
     fontSize: 12,
     h1: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 32,
     },
     h2: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 24,
     },
     h3: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 20,
       fontWeight: 800,
       color: tokens.grey[200],
     },
     h4: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 14,
       fontWeight: 600,
       color: tokens.grey[300],
     },
     h5: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 12,
       fontWeight: 400,
       color: tokens.grey[500],
     },
     h6: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ['Inter', 'sans-serif'].join(','),
       fontSize: 10,
       color: tokens.grey[700],
     },

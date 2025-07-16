@@ -4,10 +4,10 @@
 A full‑stack MERN application featuring real‑time financial charts, CRUD operations on transactions, and basic ML‑powered trend prediction.
 
 ## 📸 Demo
-<p align="center">
-  <img src="./images/Finanseer.png" alt="Finance Dashboard landing page" width="700" />
-</p>
 
+<p align="center">
+  <img src="./image/Finanseer.png" alt="Finance Dashboard landing page" width="700" />
+</p>
 
 ## ✨ Key Features
 
@@ -64,6 +64,7 @@ cd client && npm run dev
 To run the app, you need to set up environment variables for both backend and frontend:
 
 ### Backend (`server/.env`)
+
 Create a file named `.env` inside the `server` directory with:
 
 ```bash
@@ -71,21 +72,25 @@ MONGO_URI=<your MongoDB connection string>
 PORT=<port number, e.g., 3001>
 JWT_SECRET=<your JWT secret>
 ```
+
 - `MONGO_URI`: Your MongoDB connection string.
 - `PORT`: Port for the backend server (default: 3001).
 - `JWT_SECRET`: Secret key for authentication.
 
 ### Frontend (`client/.env.local`)
+
 Create a file named `.env.local` inside the `client` directory with:
 
 ```bash
 VITE_BASE_URL=http://localhost:<port number used in server/.env>
 ```
+
 - `VITE_BASE_URL`: The backend URL (should match the backend port).
 
 This ensures the frontend connects to your backend correctly.
 
 This sets the base URL for the frontend to connect to your backend.
+
 ## 🤝 Contributions & Feedback
 
 Feel free to open an issue or submit a pull request to suggest improvements!

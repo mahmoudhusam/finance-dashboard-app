@@ -1,6 +1,8 @@
 # Finance Dashboard App
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/) [![MongoDB](https://img.shields.io/badge/MongoDB-4.0+-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/) [![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+
 A full‑stack MERN application featuring real‑time financial charts, CRUD operations on transactions, and basic ML‑powered trend prediction.
 
 ## 📸 Demo
